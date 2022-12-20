@@ -6,7 +6,7 @@ export class Content {
   }
 
   validateContentLength(content: string): boolean {
-    return content.length >= 5 && content.length <= 248;
+    return content.length >= 5 && content.length <= 240;
   }
 
   constructor(content: string) {
